@@ -1,0 +1,23 @@
+.product {
+	max-width: 100%;
+	list-style-type: none;
+	display: flex;
+	margin-bottom: 20px;
+	padding: 15px;
+	border-radius: 8px;
+	background-color: #fffaff;
+
+	&:nth-child(even) {
+		background-color: #fff2ff;
+	}
+
+	&__image {
+		height: 100px;
+	}
+
+	&__details {
+		width: 40%;
+		padding-left: 30px;
+		text-align: right;
+	}
+}

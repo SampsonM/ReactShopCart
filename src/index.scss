@@ -1,0 +1,23 @@
+@import './components/Product/Product.scss';
+@import './components/productQuantityHandler/productQuantityHandler.scss';
+
+.shopping-cart {
+	display: block;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+	&__header {
+		text-align: left;
+		color: #bd93fe;
+	}
+
+	&__total {
+		max-width: 1200px;
+		text-align: right;
+	}
+}
+
+.product-list {
+	padding: 0;
+	max-width: 1200px;
+	margin: 0 auto;
+}
